@@ -51,8 +51,12 @@ header .container ul{
     align-items: center;
 }
 
+header .container a{
+    display: none;
+}
+
 header .container ul li{
-    padding: 0 0.8rem;
+    padding-left: 1.6rem;
     color: var(--light-color);
 }
 
@@ -79,6 +83,26 @@ main{
     background-color: var(--bg-lilla);
 }
 
+.cards{
+    max-width: calc(100% / 3);
+}
+
+.cards button{
+    border: 1px solid transparent;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 0.4rem 2.3rem;
+    border-radius: 20px;
+}
+
+.cards button i{
+    padding-left: 10px;
+}
+
+.img img{
+    width: 100%;
+}
+
 /* MAIN END */
 
 
@@ -89,3 +113,21 @@ footer{
 }
 
 /* FOOTER END */
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px){
+
+    header .container ul{
+        display: none;
+    }
+
+    header .container a{
+        display: block;
+    }
+}
+
+
+/* MEDIA QUESRY END */
