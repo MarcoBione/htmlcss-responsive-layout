@@ -42,6 +42,7 @@ header .container nav{
     justify-content: space-between;
     padding: 0.5rem;
     align-items: center;
+    height: 60px;
 }
 
 /* list of nav content */
@@ -71,6 +72,7 @@ header ul li button{
 /* MAIN */
 main{
     background-color: var(--light-color);
+    margin-top: 60px;
 }
 
 .even{
