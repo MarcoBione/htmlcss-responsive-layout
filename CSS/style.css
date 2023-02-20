@@ -35,8 +35,16 @@ ul{
     gap: 10px;
 }
 
+.padding-1{
+    padding: 0.5rem 0;
+}
+
+.padding-p{
+    padding: 0.5rem 0 1rem 0;
+}
+
 .padding-b{
-    padding-bottom: 1rem;
+    padding: 0rem 0 1rem 0;
 }
 
 .padding-t{
@@ -113,6 +121,7 @@ main{
 
 .cards h2{
     color: var(--secondary-color);
+    text-align: center;
 }
 
 .cards{
@@ -186,7 +195,7 @@ footer{
 
 /* MEDIA QUERY */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
 
     header .container ul{
         display: none;
@@ -195,6 +204,10 @@ footer{
     header .container a{
         display: block;
     }
+}
+
+@media screen and (max-width: 768px){
+
 }
 
 
