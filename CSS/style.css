@@ -15,3 +15,32 @@
 --bg-cards: #B5DDFF;
 --contrast-color: #FDC15F;
 }
+
+/* HEADER */
+
+header{
+    background-color: var(--secondary-color);
+}
+
+/* HEADER END */
+
+
+/* MAIN */
+main{
+    background-color: var(--light-color);
+}
+
+.even{
+    background-color: var(--bg-lilla);
+}
+
+/* MAIN END */
+
+
+
+/* FOOTER */
+footer{
+    background-color: var(--dark-color);
+}
+
+/* FOOTER END */
