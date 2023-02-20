@@ -50,6 +50,10 @@ ul{
 .padding-t{
     padding-top: 1rem;
 }
+
+.padding-planning-card{
+    padding-bottom: 0.5rem;
+}
 /* GENERAL END */
 
 /* HEADER */
@@ -112,21 +116,18 @@ main{
 
 .cards{
     /* max-width: calc((100% / 3) - 10px); */
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
     border-radius: 20px;
     padding: 0.5rem;
     background-color: var(--bg-cards);
+    color: var(--dark-color);
+    margin-bottom: 1.2rem;
 }
 
 .cards h2{
     color: var(--secondary-color);
     text-align: center;
-}
-
-.cards{
-    color: var(--dark-color);
-    margin-bottom: 1.2rem;
 }
 
 .cards:last-child{
@@ -178,6 +179,58 @@ main{
 
 .cards h3{
     color: var(--secondary-color);
+}
+
+
+.planning{
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5rem;
+    color: var(--light-color);
+    margin-bottom: 1.2rem;
+}
+
+.planning2{
+    text-align: center;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: var(--light-color);
+    color: var(--light-color);
+    margin-bottom: 1.2rem;
+}
+
+.img-planning img{
+    width: 100%;
+}
+
+.img-planning{
+    text-align: center;
+}
+
+.planning-info{
+    text-align: center;
+    background-color: var(--bg-lilla);
+    color: var(--light-color);
+    margin-bottom: 1.2rem;
+}
+
+
+.planning-info2{
+    text-align: center;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    margin-bottom: 1.2rem;
+}
+
+.planning-info2 button{
+    border: 1px solid transparent;
+    background-color: var(--bg-lilla);
+    color: var(--dark-color);
+    width: 40px;
+    height: 40px;
+    padding: 0.3rem 0.6rem;
+    border-radius: 50px;
+    text-align: center;
 }
 
 /* MAIN END */
