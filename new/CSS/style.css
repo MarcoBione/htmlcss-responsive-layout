@@ -311,6 +311,10 @@ main{
     text-align: center;
 }
 
+#call-to-action .spacer p{
+    padding: 1.5rem;
+}
+
 #call-to-action .button{
     background-color: var(--light-color);
     color: var(--bg-lilla);
@@ -319,6 +323,8 @@ main{
     text-align: center;
     margin: 0 auto;
 }
+
+
 
 /* CALL TO ACTION END */
 
