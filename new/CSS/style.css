@@ -124,10 +124,15 @@ main{
     margin: 0 auto;
 }
 
+#intro .spacer{
+    padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
 #intro .card{
     background-color: var(--bg-cards);
     color: var(--dark-color);
     padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 #intro .card:first-child{
