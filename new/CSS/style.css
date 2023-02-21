@@ -236,6 +236,7 @@ main{
     background-color: var(--light-color);
     padding:1rem;
     color: var(--bg-lilla);
+    margin-bottom: 1.5rem;
 }
 
 #features .button{
