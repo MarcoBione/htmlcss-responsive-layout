@@ -429,30 +429,27 @@ footer{
 
 /* MEDIA QUERY */
 
+@media screen and (max-width:992px){
+
+    /* HEADER NAV */
+    header .container ul{
+       display: none;
+   }
+
+   header .container a{
+       display: block;
+   }
+   
+   /* HEADER NAV END */
+
+}
+
 @media screen and (min-width:768px){
 
-    header .container ul{
-        display: none;
-    }
-
-    header .container a{
-        display: block;
-    }
 
 }
 
 @media screen and (min-width:992px){
-
-    /* HEADER NAV */
-    header .container ul{
-        display: none;
-    }
-
-    header .container a{
-        display: block;
-    }
-    
-    /* HEADER NAV END */
 
     /* INTRO */
 
@@ -554,9 +551,7 @@ footer{
 @media screen and (min-width:1200px){
 
 
-
     /* FEATURE */
-
     #features .dflex{
         display: flex;
         flex-flow: row wrap;
@@ -567,8 +562,6 @@ footer{
         max-width: calc((100% / 3) - 25px);
         margin-bottom: 0;
     }
-
-
     /* FEATURE END */
    
 }
