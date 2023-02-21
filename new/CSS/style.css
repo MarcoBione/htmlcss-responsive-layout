@@ -323,10 +323,10 @@ main{
 #about-us .button{
     background-color: var(--bg-lilla);
     color: var(--light-color);
-    padding: 0.5rem;
+    padding: 0.5rem 3rem;
     max-width: 100%; 
     text-align: center;
-    font-size: 25%;
+    font-size: 30%;
 }
 
 #about-us .user p{
@@ -336,13 +336,21 @@ main{
 }
 
 #about-us .box{
-    max-width: 50%;
+    justify-content: flex-start;
 }
 
 /* ABOUT-US END*/
 
 
 /* CALL TO ACTION */
+
+#call-to-action .spacer{
+    max-width: 80%;
+}
+
+#call-to-action .container{
+    justify-content: center;
+}
 
 #call-to-action h4{
     color: var(--light-color);
@@ -375,11 +383,16 @@ main{
 #call-to-action .button{
     background-color: var(--light-color);
     color: var(--bg-lilla);
-    padding: 1rem;
-    width: 300px;
+    padding: 1rem 4.5rem;
     text-align: center;
-    margin: 0 auto;
+    max-width: 100%; 
+    font-size: 100%;
 }
+
+#call-to-action .box{
+    justify-content: center;
+}
+
 
 
 
