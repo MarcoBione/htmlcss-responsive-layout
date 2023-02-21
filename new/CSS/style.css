@@ -211,6 +211,11 @@ main{
     margin-bottom: 1.5rem;
 }
 
+#testimonials .info-card p{
+    padding : 1rem 0 1rem 0;
+    
+}
+
 #testimonials h2{
     color: var(--bg-lilla);
     font-size: 2rem;
