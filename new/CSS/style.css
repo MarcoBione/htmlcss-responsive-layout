@@ -435,6 +435,7 @@ footer{
     #intro .dflex{
         display: flex;
         flex-flow: row wrap;
+        grid-template-columns: auto auto auto;
         gap: 25px;
     }
 
@@ -469,19 +470,56 @@ footer{
 
     #testimonials .info-card{
         max-width: 75%;
-        padding: 2rem;
+        padding: 2rem 0 2rem 2rem;
     }
 
     #testimonials .info-card>p{
         text-align: start;
     }
 
+    #testimonials .card{
+        justify-content: space-around;
+    }
+
     /* TESTIMONIAL END */
+
+    /* FEATURE */
+
+    #features .dflex{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 25px;
+    }
+
+    #features .spacer .card{
+        max-width: calc((100% / 2) - 25px);
+        margin-bottom: 0;
+    }
+
+
+    /* FEATURE END */
 }
 
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:1200px){
 
+
+
+    /* FEATURE */
+
+    #features .dflex{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 25px;
+    }
+
+    #features .spacer .card{
+        max-width: calc((100% / 3) - 25px);
+        margin-bottom: 0;
+    }
+
+
+    /* FEATURE END */
    
 }
 
