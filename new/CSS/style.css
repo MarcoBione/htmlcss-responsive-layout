@@ -18,10 +18,30 @@
 
 /* GNERAL */
 
+.debug{
+    outline: 1px solid black;
+}
+
 ul{
     list-style: none;
 }
 
+.spacer{
+    padding:1.5rem;
+}
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.rounded{
+    border-radius: 15px;
+}
 /* END GENERAL */
 
 
@@ -40,7 +60,7 @@ header{
 header .container nav{
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 0 1.5rem;
     align-items: center;
     height: 60px;
 }
@@ -89,8 +109,35 @@ main{
 
 /* INTRO */
 
+.card{
+    max-width: 100%;
+    text-align: center;
+}
 
+#intro img{
+    width: 30%;
+}
 
+#intro .card{
+    background-color: var(--bg-cards);
+    color: var(--dark-color);
+}
+
+#intro .card h2{
+    color:var(--secondary-color)
+}
+
+#intro button{
+    border: 1px solid transparent;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 0.3rem 2rem;
+
+}
+
+#intro button i{
+    padding-right: 0.5rem;
+}
 
 /* END INTRO */
 
