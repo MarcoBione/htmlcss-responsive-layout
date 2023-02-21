@@ -326,6 +326,24 @@ main{
 /* MAIN END */
 
 
+/* FOOTER */
+
+footer{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+#end .spacer p{
+    text-align: center;
+}
+
+#end .spacer a{
+    color: var(--bg-lilla);
+}
+
+
+/* FOOTER END */
+
 
 
 
