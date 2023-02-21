@@ -197,6 +197,22 @@ main{
     background-color: var(--bg-lilla);
     padding:1rem;
     color: var(--light-color);
+    margin-bottom: 1.5rem;
+}
+
+#testimonials h2{
+    color: var(--bg-lilla);
+    font-size: 2rem;
+}
+
+#testimonials h3{
+    color:var(--dark-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+#testimonials h2, h3, p{
+    text-align: center;
 }
 
 .img-cont{
