@@ -232,8 +232,12 @@ main{
     height: 200px;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     border-radius: 50%;
+}
+
+.img{
+    justify-content: center;
 }
 
 
@@ -455,6 +459,24 @@ footer{
     }
 
     /* PLANNING END */
+
+    /* TESTIMONIAL */
+
+    #testimonials .dflex{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #testimonials .info-card{
+        max-width: 75%;
+        padding: 2rem;
+    }
+
+    #testimonials .info-card>p{
+        text-align: start;
+    }
+
+    /* TESTIMONIAL END */
 }
 
 
