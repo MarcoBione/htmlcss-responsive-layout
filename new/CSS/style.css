@@ -226,6 +226,29 @@ main{
     text-transform: uppercase;
 }
 
+/* TESTIMONIALS END*/
+
+
+/* FEATURE */
+
+#features .card{
+    text-align: start;
+    background-color: var(--light-color);
+    padding:1rem;
+    color: var(--bg-lilla);
+}
+
+#features .button{
+    background-color: var(--bg-lilla);
+    color: var(--light-color);
+    padding: 0.5rem;
+    width: 100px;
+    text-align: center;
+}
+
+/* FEATURE END */
+
+
 
 /* MAIN END */
 
