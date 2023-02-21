@@ -194,6 +194,10 @@ main{
     padding: 0.5rem 0 0.5rem 0;
 }
 
+#planning>p{
+    text-align: start;
+}
+
 /* PLANNING END */
 
 
@@ -209,15 +213,17 @@ main{
 #testimonials h2{
     color: var(--bg-lilla);
     font-size: 2rem;
+    text-align: center;
 }
 
 #testimonials h3{
     color:var(--dark-color);
     font-size: 1rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
-#testimonials h2, h3, p{
+#testimonials p{
     text-align: center;
 }
 
@@ -409,6 +415,7 @@ footer{
 
 @media screen and (min-width:992px){
 
+    /* HEADER NAV */
     header .container ul{
         display: none;
     }
@@ -416,6 +423,10 @@ footer{
     header .container a{
         display: block;
     }
+    
+    /* HEADER NAV END */
+
+    /* INTRO */
 
     #intro .dflex{
         display: flex;
@@ -432,6 +443,18 @@ footer{
         max-width: calc(((100% / 3) - 12px) * 2);
     }
 
+    /* INTRO END */
+
+    /* PLANNING */
+
+    #planning h2{
+        font-size: 3rem;
+    }
+    #planning p{
+        font-size: 1.1rem;
+    }
+
+    /* PLANNING END */
 }
 
 
