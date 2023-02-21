@@ -188,8 +188,44 @@ main{
     padding: 0.5rem 0 0.5rem 0;
 }
 
-
 /* PLANNING END */
+
+
+/* TESTIMONIALS */
+
+#testimonials .card{
+    background-color: var(--bg-lilla);
+    padding:1rem;
+    color: var(--light-color);
+}
+
+#testimonials .img-cont{
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
+/* testimonials img*/
+.testimonial1{
+    background-image: url(../../assets/img/testimonial1.jpg);
+}
+.testimonial2{
+    background-image: url(../../assets/img/testimonial2.jpg);
+}
+.testimonial3{
+    background-image: url(../../assets/img/testimonial3.jpg);
+}
+/* testimonials img end*/
+
+
+#testimonials .name{
+    text-transform: uppercase;
+}
+
 
 /* MAIN END */
 
