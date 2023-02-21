@@ -18,7 +18,7 @@
 
 /* GNERAL */
 
-.debug{
+.debu{
     outline: 1px solid black;
 }
 
@@ -120,8 +120,6 @@ main{
 
 #intro img{
     width: 50%;
-    display: block;
-    margin: 0 auto;
 }
 
 #intro .spacer{
@@ -194,9 +192,9 @@ main{
     padding: 0.5rem 0 0.5rem 0;
 }
 
-#planning>p{
+#planning p{
     text-align: start;
-    padding: 0.5rem 0 0.5rem 0;
+    padding: 0.8rem 0;
 }
 
 /* PLANNING END */
@@ -550,6 +548,43 @@ footer{
 
 @media screen and (min-width:1200px){
 
+    /* PLANNING */
+
+    #planning .dflex{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 25px;
+    }
+
+    #planning .spacer{
+        justify-content: center;
+    }
+
+    #planning .resize{
+        max-width: 30%;
+
+    }
+
+    #planning .planning-info{
+        flex-flow: column nowrap;
+        justify-content: space-between;       
+    }
+
+    #planning .position{
+        margin-top: 150px;
+    }
+
+    #planning h2{
+        font-size: 2.5rem;
+        padding: 2.5rem 0;
+    }
+
+    #planning p{
+        text-align: start;
+        padding: 0;
+    }
+
+    /* PLANNING END */
 
     /* FEATURE */
     #features .dflex{
