@@ -72,6 +72,18 @@ header ul li button{
 
 /* HEADER END */
 
+/* MAIN */
+
+main{
+    margin-top: 60px;
+}
+
+.even{
+    background-color: var(--bg-lilla);
+}
+
+/* MAIN END */
+
 
 
 
