@@ -82,6 +82,18 @@ main{
     background-color: var(--bg-lilla);
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* INTRO */
+
+
+
+
+/* END INTRO */
+
 /* MAIN END */
 
 
