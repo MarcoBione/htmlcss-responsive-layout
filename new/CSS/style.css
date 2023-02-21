@@ -335,6 +335,7 @@ footer{
 
 #end .spacer p{
     text-align: center;
+    padding: 1.5rem 0;
 }
 
 #end .spacer a{
@@ -343,40 +344,6 @@ footer{
 
 
 /* FOOTER END */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MEDIA QUERY */
 
@@ -390,6 +357,24 @@ footer{
         display: block;
     }
 
+}
+
+@media screen and (max-width:992px){
+
+    header .container ul{
+        display: none;
+    }
+
+    header .container a{
+        display: block;
+    }
+
+}
+
+
+@media screen and (max-width:1200px){
+
+   
 }
 
 /* END MEDIA QUERY */
