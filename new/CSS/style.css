@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* PALETTE */
+
+:root{    /* Color styles */
+--secondary-color: #0084FD;
+--dark-color: #333333;
+--light-color: #FFFFFF;
+--bg-lilla: #9792E4;
+--bg-cards: #B5DDFF;
+--contrast-color: #FDC15F;
+}
+
+
