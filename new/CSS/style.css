@@ -199,7 +199,7 @@ main{
     color: var(--light-color);
 }
 
-#testimonials .img-cont{
+.img-cont{
     width: 200px;
     height: 200px;
     background-position: center;
@@ -246,7 +246,43 @@ main{
     text-align: center;
 }
 
+#features .spacer>h2{
+    color: var(--light-color);
+    padding: 0 0 1rem 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
 /* FEATURE END */
+
+/* ABOUT-US */
+
+.about-user{
+    background-image: url(../../assets/img/about.jpg);
+}
+
+.user{
+    display: block;
+    position: relative;
+    font-size: 3rem;
+    color: var(--bg-lilla);
+    text-align: end;
+}
+
+#about-us .button{
+    background-color: var(--bg-lilla);
+    color: var(--light-color);
+    padding: 0.5rem;
+    width: 500px;
+    text-align: center;
+}
+
+#about-us .user p{
+    font-weight: bold;
+    text-align: start;
+}
+
+/* ABOUT-US END*/
 
 
 
