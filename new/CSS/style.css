@@ -395,7 +395,7 @@ footer{
 
 /* MEDIA QUERY */
 
-@media screen and (max-width:768px){
+@media screen and (min-width:768px){
 
     header .container ul{
         display: none;
@@ -407,7 +407,7 @@ footer{
 
 }
 
-@media screen and (max-width:992px){
+@media screen and (min-width:992px){
 
     header .container ul{
         display: none;
@@ -415,6 +415,21 @@ footer{
 
     header .container a{
         display: block;
+    }
+
+    #intro .dflex{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 25px;
+    }
+
+    #intro .card{
+        max-width: calc((100% / 3) - 25px);
+        margin-bottom: 0;
+    }
+
+    #intro .card:first-child{
+        max-width: calc(((100% / 3) - 12px) * 2);
     }
 
 }
