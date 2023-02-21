@@ -309,14 +309,19 @@ main{
     background-color: var(--bg-lilla);
     color: var(--light-color);
     padding: 0.5rem;
-    width: 500px;
+    max-width: 100%; 
     text-align: center;
+    font-size: 25%;
 }
 
 #about-us .user p{
     font-weight: bold;
     text-align: start;
     padding: 1.5rem 0;
+}
+
+#about-us .box{
+    max-width: 50%;
 }
 
 /* ABOUT-US END*/
