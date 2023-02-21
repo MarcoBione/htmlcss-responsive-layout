@@ -40,7 +40,11 @@ ul{
 }
 
 .rounded{
-    border-radius: 15px;
+    border-radius: 25px;
+}
+
+.rounded-b{
+    border-radius: 50px;
 }
 /* END GENERAL */
 
@@ -115,13 +119,19 @@ main{
 }
 
 #intro img{
-    width: 30%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
 
 #intro .card{
     background-color: var(--bg-cards);
     color: var(--dark-color);
     padding: 1rem;
+}
+
+#intro .card:first-child{
+    padding: 1rem 1rem 0 1rem;
 }
 
 #intro .card-info h2{
@@ -141,12 +151,45 @@ main{
     padding-right: 0.5rem;
 }
 
-#intro .card-info i{
+#intro .icons{
     font-size: 2.5rem;
     color: var(--secondary-color);
 }
 
 /* END INTRO */
+
+/* PLANNING */
+
+#planning img{
+    width: 100%;
+    display: block;
+}
+
+#planning .spacer{
+    color: var(--light-color);
+}
+
+#planning .card{
+    background-color: var(--light-color);
+    padding:1rem;
+    color: var(--dark-color);
+}
+
+#planning .button{
+    background-color: var(--bg-lilla);
+    color: var(--dark-color);
+    width: 50px;
+    height: 50px;
+    padding: 0.9rem;
+    margin: 0 auto;
+}
+
+#planning h2, h3, p{
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+
+/* PLANNING END */
 
 /* MAIN END */
 
