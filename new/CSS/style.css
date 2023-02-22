@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* PALETTE */
@@ -48,8 +49,9 @@ ul{
 }
 
 section{
-    scroll-margin-top: 80px;
+    scroll-margin-top: 60px;
 }
+
 /* END GENERAL */
 
 
@@ -77,24 +79,35 @@ header .container nav{
 header .container ul{
     display: flex;
     align-items: center;
+    padding-left: 1.6rem;
 }
 
 header .container a{
     display: none;
+    text-decoration: none;
 }
+
+.color-light{
+    color: var(--light-color);
+}
+
+.color{
+    color: var(--dark-color);
+}
+
 
 header .container ul li{
     padding-left: 1.6rem;
-    color: var(--light-color);
 }
 
 header ul li button{
     border: 1px solid transparent;
     background-color: var(--light-color);
-    color: var(--dark-color);
     padding: 0.4rem 0.5rem;
     border-radius: 20px;
 }
+
+
 
 /* list of nav content end*/
 
@@ -379,7 +392,8 @@ main{
     font-size: 3.5rem;
 }
 
-#call-to-action p, a{
+#call-to-action p, 
+#call-to-action a{
     color: var(--light-color);
     text-align: center;
 }
@@ -453,12 +467,19 @@ footer{
 
 @media screen and (min-width:992px){
 
+    header .container a{
+        display: block;
+    }
+
+    header .container .fa-bars{
+        display: none;
+    }
+
     /* INTRO */
 
     #intro .dflex{
         display: flex;
         flex-flow: row wrap;
-        grid-template-columns: auto auto auto;
         gap: 25px;
     }
 
@@ -551,6 +572,14 @@ footer{
 
 
 @media screen and (min-width:1200px){
+
+    header .container a{
+        display: block;
+    }
+
+    header .container .fa-bars{
+        display: none;
+    }
 
     /* PLANNING */
 
